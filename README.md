@@ -1,6 +1,6 @@
 # AI Prompt Engineering Guide
 
-A simple 5-step strategy for effective AI-assisted coding.
+A simple 5-step strategy for effective AI coding.
 
 ## The 5-Step Process
 
@@ -78,13 +78,13 @@ You are an expert AI doc‑generator. Scan the entire codebase (without modifyin
 
 ### 2. 📋 Analyze Requirements
 
-Break down tasks into manageable components using Product Requirements Documents (PRDs). Use thinking AI models.
+Break down tasks into manageable components using Product Requirements Documents (PRDs). Use advanced reasoning models for complex analysis.
 
 **Example Prompts:**
 
 > Create a PRD for [feature description]. Think deeply about requirements and implementation details. Don't code yet - just create the PRD markdown file.
 
-> I want you to act as a product manager and create a PRD for [feature description]. What steps do we have to take to implement this feature? Include user stories, technical requirements, acceptance criteria, and potential challenges. Don't code yet.
+> Act as a product manager and create a PRD for [feature description]. What steps do we need to implement this feature? Include user stories, technical requirements, acceptance criteria, and potential challenges. Don't code yet.
 
 > Create a comprehensive PRD for [feature description] that includes: problem statement, user personas, functional requirements, non-functional requirements, technical architecture decisions, implementation phases, and success metrics. Break down the implementation into clear, actionable steps.
 
