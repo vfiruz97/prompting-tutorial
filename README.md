@@ -23,9 +23,62 @@ Store these files in your repository and reference them in every AI prompt.
 
 > Analyze this codebase and create a technical architecture document that includes: project goals, target audience, folder structure with purposes, key dependencies, coding standards used, and any architectural patterns. Don't modify any files yet - just learn and document.
 
+<details>
+
+<summary>Proper prompt (Click to expand)</summary>
+
+You are an expert AI doc‑generator. Scan the entire codebase (without modifying it) and produce a single Markdown file named `PROJECT_DOCUMENTATION.md` in the repo root containing:
+
+1. **Project Overview**
+
+   - Goals & success criteria
+   - Target audience & user personas
+   - High‑level feature list
+
+2. **Architecture & Components**
+
+   - System diagram (use Mermaid syntax)
+   - Responsibilities of each major module/service
+   - Data flow between components
+
+3. **Folder & File Structure**
+
+   - Top‑level folders and their purpose
+   - Key files and where to find business logic, UI, tests, etc.
+
+4. **Tech Stack & Dependencies**
+
+   - Languages, frameworks, libraries, and tools in use
+   - Version constraints and why each dependency matters
+
+5. **Coding Standards & Conventions**
+
+   - Naming conventions (classes, methods, variables)
+   - Formatting, linting, and commit message guidelines
+   - Branching & release workflow
+
+6. **Setup, Build & Deployment**
+
+   - Local development setup steps
+   - Test commands & coverage
+   - CI/CD overview and deployment targets
+
+7. **Troubleshooting & FAQs**
+
+   - Common pitfalls and how to resolve them
+   - Links to docs, issue tracker, and communication channels
+
+8. **Next Steps for AI**
+   - How downstream AI agents should reference this doc in prompts
+   - Tips for asking targeted coding questions (e.g., “use section 4 for dependency info”)
+
+> **Reminder:** Do not alter any source files. Output only valid Markdown with embedded Mermaid where indicated.
+
+</details>
+
 ### 2. 📋 Analyze Requirements
 
-Break down tasks into manageable components using Product Requirements Documents (PRDs).
+Break down tasks into manageable components using Product Requirements Documents (PRDs). Use thinking AI models.
 
 **Example Prompts:**
 
